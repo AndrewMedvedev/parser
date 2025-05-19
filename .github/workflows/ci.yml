@@ -19,7 +19,7 @@ jobs:
       - 
         name: Run mypy
         run:
-          docker run --rm -v $PWD:/app linters mypy src/
+          docker run --rm -v $PWD:/app linters mypy .
       - 
         name: Run ruff
         run:
