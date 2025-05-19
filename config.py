@@ -4,7 +4,6 @@ from dotenv import dotenv_values, find_dotenv
 
 env_path = find_dotenv()
 
-
 config = dotenv_values(env_path)
 
 
